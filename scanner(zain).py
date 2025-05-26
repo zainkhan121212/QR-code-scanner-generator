@@ -4,7 +4,7 @@ from pyzbar import pyzbar
 from PIL import Image, ImageTk
 import tkinter as tk
 from tkinter import ttk, messagebox
-
+#hhh
 class QRCodeScanner:
     def __init__(self, root):
         self.root = root
