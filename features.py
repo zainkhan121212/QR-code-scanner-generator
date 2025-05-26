@@ -91,7 +91,7 @@ class QRCodeApp:
             if file_path:
                 self.qr_image.save(file_path)
                 messagebox.showinfo("Saved", f"QR code saved as PNG: {file_path}")
-
+#yyy
     # Save as PDF
     def save_pdf(self):
         if self.qr_image:
